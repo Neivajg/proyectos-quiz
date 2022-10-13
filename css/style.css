@@ -1,0 +1,42 @@
+/* label {
+    width: 200px !important;
+    height: 50px !important;
+    background-color: aquamarine;
+} */
+@media (max-width: 390px) {
+    body {
+        margin: 0px;
+    }
+    header {
+        display: none;
+    }
+}
+
+
+ol {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    border: 1px solid lightslategray;
+    height: 20vh;
+    width: 100vh;
+    text-align: center;
+    /* line-height: 20vh; */
+}
+
+li label:nth-child(1) {
+    background-color: antiquewhite;
+}
+
+input[type="radio"] {
+    visibility: hidden;
+    position: absolute;
+}

@@ -87,13 +87,6 @@ li label:nth-child(8) {
     background-color: var(--color5);
 }
 
-li label:nth-child(7) {
-    background-color: rgb(145, 190, 220);
-}
-
-li label:nth-child(9) {
-    background-color: rgb(145, 190, 220);
-}
 input[type="radio"] {
     visibility: hidden;
     position: absolute;

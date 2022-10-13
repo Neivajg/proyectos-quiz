@@ -11,7 +11,10 @@
         display: none;
     }
 }
-
+header{
+    text-align: center;
+    font-family: 'Lucida Sans',;
+}
 
 ol {
     list-style: none;
@@ -33,10 +36,39 @@ label {
 }
 
 li label:nth-child(1) {
-    background-color: antiquewhite;
+     background-color: blanchedalmond;
+}
+li label:nth-child(2) {
+    background-color: rgb(105, 105, 145);
+}
+li label:nth-child(5) {
+    background-color: rgb(145, 190, 220);
 }
 
+li label:nth-child(7) {
+    background-color: rgb(145, 190, 220);
+}
+
+li label:nth-child(9) {
+    background-color: rgb(145, 190, 220);
+}
 input[type="radio"] {
     visibility: hidden;
     position: absolute;
+}
+
+
+@media (max-width: 768px) {
+   
+    body {
+        margin: 0px;
+        display: grid;
+    }
+     li{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 100px 300px;
+        grid-gap
+       
+     }
 }

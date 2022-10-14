@@ -66,6 +66,10 @@ label {
 
 }
 
+input[type="radio"]:checked + label {
+    background-color:rgb(205, 234, 196);
+  }
+
 span {
     display: table-cell;
     vertical-align: middle;
@@ -98,6 +102,7 @@ li label:nth-child(7) {
 li label:nth-child() {
     background-color: rgb(145, 190, 220);
 }
+
 input[type="radio"] {
     visibility: hidden;
     position: absolute;

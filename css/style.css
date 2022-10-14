@@ -37,6 +37,10 @@
     }
 }
 
+h4{
+    text-align: center;
+    font-size: 25px;
+}
 ol {
     list-style: none;
     padding-left: 0px;
@@ -71,19 +75,19 @@ li label:nth-child(1) {
     background-color: var(--color1);
 }
 
-li label:nth-child(2) {
+li label:nth-child(3) {
     background-color: var(--color2);
 }
 
-li label:nth-child(4) {
+li label:nth-child(5) {
     background-color: var(--color3);
 }
 
-li label:nth-child(6) {
+li label:nth-child(9) {
     background-color: var(--color4);
 }
 
-li label:nth-child(8) {
+li label:nth-child() {
     background-color: var(--color5);
 }
 
@@ -91,7 +95,7 @@ li label:nth-child(7) {
     background-color: rgb(145, 190, 220);
 }
 
-li label:nth-child(9) {
+li label:nth-child() {
     background-color: rgb(145, 190, 220);
 }
 input[type="radio"] {
